@@ -1,0 +1,1 @@
+long fac(int n);

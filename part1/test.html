@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <p id="output"></p>
+    <script>
+        var Module = {
+            onRuntimeInitialized: function() {
+                result = _fac2(10);
+                document.getElementById("output").innerText = result;
+            }
+        };
+    </script>
+    <script async src="wrapper.js"></script>
+</html>
